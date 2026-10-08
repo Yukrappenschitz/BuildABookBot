@@ -35,7 +35,7 @@ def main():
 
     print_report(book_path, num_words, sorted_num_characters)
 
-def print_report(book_path:str, word_count:int, sorted_list_character:list[tuple(str,int)]):
+def print_report(book_path:str, word_count:int, sorted_list_character:list[tuple[str,int]] ):
 
     print("============ BOOKBOT ============")
     print(f"Analyzing book found at {book_path}...")

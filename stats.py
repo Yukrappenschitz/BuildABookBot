@@ -41,7 +41,7 @@ def sort_on(character_occurrence: tuple[str,int]) -> int:
     # need to return specific character occurrence
     return character_occurrence[1] # since occurrence is stored at index[1] in the tuple
 
-def chars_dict_to_sorted_list(character_dict: dict[str,int]) -> list[tuple(str,int)]:
+def chars_dict_to_sorted_list(character_dict: dict[str,int]) -> list[tuple[str,int]]:
 
     character_occurrence_list = [] # empty list to hold all tuples of characters
 
